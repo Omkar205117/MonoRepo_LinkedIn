@@ -1,6 +1,12 @@
 spring:
   application:
     name: postService
+  datasource:
+    # The JDBC URL depends on your database driver
+    url: jdbc:postgresql://localhost:5432/postdatabase
+    username: user
+    password: password
+    driver-class-name: org.postgresql.Driver
 
 server:
   port: 9010
