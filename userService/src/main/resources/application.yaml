@@ -9,6 +9,9 @@ spring:
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
-      ddl-auto:
+      ddl-auto: update
+
 server:
   port: 9020
+  servlet:
+    context-path: /user
