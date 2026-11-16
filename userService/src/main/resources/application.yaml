@@ -1,3 +1,6 @@
 spring:
   application:
     name: userService
+
+server:
+  port: 9020
