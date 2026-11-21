@@ -1,3 +1,20 @@
 spring:
   application:
     name: userService
+  datasource:
+    # The JDBC URL depends on your database driver
+    url: jdbc:postgresql://localhost:5432/userdatabase
+    username: user
+    password: password
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+server:
+  port: 9020
+  servlet:
+    context-path: /user
+
+jwt:
+  secretKey: asdfuasjf9a8s7fd89ihq34kljruyf98ayshcskdhfioafsuyfdcjha890sduf
