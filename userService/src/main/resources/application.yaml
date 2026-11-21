@@ -15,3 +15,6 @@ server:
   port: 9020
   servlet:
     context-path: /user
+
+jwt:
+  secretKey: asdfuasjf9a8s7fd89ihq34kljruyf98ayshcskdhfioafsuyfdcjha890sduf
